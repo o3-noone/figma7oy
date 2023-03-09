@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="continer">
+      <section class="section_left">
+        <header class="header_left">
+          <a href="./index.html"><i class="fa-solid fa-d"></i> Dashboard Kit</a>
+        </header>
+        <main class="main_left">
+          <ul class="main_list1">
+            <li>
+              <a href="#"
+                ><i class="fa-solid fa-chart-pie"></i>
+                <p>Overview</p>
+              </a>
+            </li>
+            <li>
+              <a href="#"
+                ><i class="fa-solid fa-ticket"></i>
+                <p>Tickets</p>
+              </a>
+            </li>
+            <li>
+              <a href="#"
+                ><i class="fa-solid fa-lightbulb"></i>
+                <p>Ideas</p>
+              </a>
+            </li>
+            <li>
+              <a href="#"
+                ><i class="fa-solid fa-users-rectangle"></i>
+                <p>Contacts</p>
+              </a>
+            </li>
+            <li>
+              <a href="#"
+                ><i class="fa-solid fa-person-military-rifle"></i>
+                <p>Agents</p>
+              </a>
+            </li>
+            <li>
+              <a href="#"
+                ><i class="fa-solid fa-newspaper"></i>
+                <p>Articles</p>
+              </a>
+            </li>
+          </ul>
+        </main>
+      </section>
+      <section class="section_right">
+        <div style="display: none" class="search-results2">
+          <div class="chiqish-div">
+                <button id="chiqish">X</button>
+          </div>
+          <div class="searchItems">
+
+          </div>
+        </div>
+        <div class="header_right">
+          <ul class="right_list">
+            <li class="right_item1">
+              <h4>Tickets</h4>
+            </li>
+            <li class="right_item2">
+              <span class="right_span"
+                ><input id="qiymat" type="text" placeholder="search..." /> <button click="BlockSearch()" id="searchBtn"><i id="searchBtn"
+                   class="fa-solid fa-magnifying-glass"
+                ></i></button>
+                <i class="fa-solid fa-bell"></i>
+              </span>
+              <span class="right_span2">
+                <h3>Jones Ferdinand</h3>
+                <img src="" alt="" />
+              </span>
+            </li>
+          </ul>
+          <div class="all-list">
+            <ul class="right_all_list">
+            <li class="all_list_item">
+              <span class="all-span"><h4 id="all-ticket">All tickets</h4></span>
+              <span class="all-span1"><i class="fa-solid fa-arrow-up-wide-short"></i>   Sort</span>
+              <span class="all-span2"><i class="fa-solid fa-filter"></i> Filtr</span>
+            </li>
+          </ul>
+          <ul class="allList-name">
+            <li class="details-item">Ticket details</li>
+            <li class="details-item1">Customer name</li>
+            <li class="details-item2">Date</li>
+            <li class="details-item3">Priority</li>
+          </ul>
+          <div class="all-json">
+            <!-- <ul class="json-list">
+              <li class="json-list-item">
+                <div class="json-img">
+                  <img src="./images/user_no_photo_600x600.png" alt="">
+                </div>
+                
+                  <div class="json-div">
+                    <h4 class="div-h4">Contact Email not Linked</h4>
+                    <p class="div-p1">Updated 1 day ago</p>
+                  </div>
+              </li>
+              <li class="json-list-item1">
+                <h4 class="div-h4">Tom Cruise</h4>
+                <p class="div-p1">on 24.05.2019</p>
+              </li>
+              <li class="json-list-item2">
+                <h4 class="div-h4">May 26, 2019</h4>
+                <p class="div-p1">6:30 PM</p>
+              </li>
+              <li class="json-list-item3">
+                <input type="checkbox">
+              </li>
+              <li class="json-list-item4">
+                <a href="
+                #"><i class="fa-solid fa-align-center"></i></a>
+                
+              </li>
+            </ul> -->
+            
+          </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="./main.js"></script>
+    <script src="./search.js"></script>
+  </body>
+</html>
