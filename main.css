@@ -8,9 +8,10 @@
 }
 .continer{
     max-width: 1440px;
-    height: 850px;
+    height: 800px;
     border: 1px solid red;
     display: flex;
+    /* overflow-x: hidden; */
 }
 .section_left{
     width: 255px;
