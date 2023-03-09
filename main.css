@@ -8,7 +8,7 @@
 }
 .continer{
     max-width: 1440px;
-    height: 900px;
+    height: 850px;
     border: 1px solid red;
     display: flex;
 }
@@ -131,7 +131,7 @@
 }
 .all-list{
     width: 95%;
-    height: 770px;
+    height: 700px;
     margin: 0 30px;
     border-radius: 15px;
     /* border: 1px solid; */
@@ -203,7 +203,7 @@
 .all-json{
      padding: 0 20px;
     width: 100%;
-    max-height: 650px;
+    max-height: 600px;
     align-items: center;
     overflow-x: hidden;
     
