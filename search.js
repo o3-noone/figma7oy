@@ -38,9 +38,6 @@ searchInput.addEventListener("input", () => {
             <li class="json-list-item3">
               <input type="checkbox">
             </li>
-            <li class="json-list-item4">
-              <a href="#"><i class="fa-solid fa-align-center"></i></a>
-            </li>
           </ul>
         `
       );

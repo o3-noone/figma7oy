@@ -19,8 +19,7 @@ form.addEventListener("submit", (event) => {
   })
     .then((data) => {
         console.log(data);
-        window.location="asosiy.html"
-    //   window.location.href = "index.html";
+        window.location.href="asosiy.html"
     })
     .catch((error) => {
         console.error(error);
