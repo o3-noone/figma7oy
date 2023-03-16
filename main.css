@@ -78,7 +78,7 @@
     left: 20%;
     position: fixed;
     width: 1150px;
-    border-radius: 20px;
+    /* border-radius: 20px; */
     padding: 0 20px;
     height: 400px;
     overflow-x: hidden;
@@ -98,6 +98,32 @@
     background: black;
     color: red;
 
+}
+.result-checkbox{
+     border: 1px solid red;
+    top: 20%;
+    left: 20%;
+    position: fixed;
+    width: 1150px;
+    /* border-radius: 20px; */
+    padding: 0 20px;
+    display: none;
+    height: 400px;
+    overflow-x: hidden;
+    background-color: #c0c1c6;
+}
+.result-chiqish{
+    width: 100%;
+    hanging-punctuation: 50px;
+}
+#chiqish-del{
+     margin-left: 97%;
+    margin-top: 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: black;
+    color: red;
 }
 .header_right{
     width: 100%;
@@ -176,6 +202,10 @@
    cursor: pointer;
 }
 #searchBtn{
+    background-color: transparent;
+    border: none;
+}
+#tanlanganlar{
     background-color: transparent;
     border: none;
 }
@@ -280,4 +310,24 @@
 }
 .fa-align-center:hover{
     color: black;
+}
+
+
+::-webkit-scrollbar {
+  width: 3px; /* O'lchami */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #26ff00;
+}
+
+/* Pushti */
+::-webkit-scrollbar-thumb {
+  background: rgb(198, 45, 45);
+}
+
+/* Hojati */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(158, 112, 112);
 }
